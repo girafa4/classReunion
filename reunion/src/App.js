@@ -12,11 +12,12 @@ class App extends Component {
         <header className="App-header">
           
           <h1 className="App-title">Farwell Class of 78</h1>
-          <img src={steer} className="App-logo" alt="logo" />
+          
         </header>
-        <p className="App-intro">
-        <h1>Welcome</h1>
-        </p>
+        <div className="App-intro">
+        Welcome
+        </div>
+        <img src={steer} className="App-logo" alt="logo" />
         <div>
         <button className = "register">Register</button>
         </div>
