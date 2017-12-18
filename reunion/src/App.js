@@ -19,7 +19,9 @@ class App extends Component {
         </div>
         <img src={steer} className="App-logo" alt="logo" />
         <div>
-        <button className = "register">Register</button>
+        <form action="/registration.html">
+    <input type="submit" value="Register" />
+</form>
         </div>
         <button className = "login">Login</button>
 
