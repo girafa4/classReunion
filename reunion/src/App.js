@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import steer from './Steer2.jpg';
 import './App.css';
+import Login from "./login.js"
+import Registration from "./Registration.js"
 // import loginfield from './login.html'
 
 
@@ -19,12 +21,12 @@ class App extends Component {
         </div>
         <img src={steer} className="App-logo" alt="logo" />
         <div>
-        <form action="/registration.html">
-    <input type="submit" value="Register" />
-</form>
+      
         </div>
-        <button className = "login">Login</button>
-
+        <Registration />
+        <Login />
+        
+        
       </div>
 
     );
