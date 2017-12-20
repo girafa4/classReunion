@@ -7,7 +7,6 @@ import Registration from "./components/Registration.js"
 
 
 
-
 class App extends Component {
   render() {
     return (

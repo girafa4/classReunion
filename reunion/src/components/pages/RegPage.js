@@ -25,7 +25,7 @@ class RegPage extends Component {
          Enter State <input type="text" state="state" />Enter Zip <input type="text" zip="zip" />
          </div>
 
-        <div id= "submit"><input type="button" value="Login" name="Submit" onClick= "validate()" /> </div>
+        <div id= "submit"><input type="button" value="Submit" name="Submit" onClick= "validate()" /> </div>
         </form>
         </div>
     );
