@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import steer from './styles/Steer2.jpg';
-import './styles/App.css';
+import steer from './Steer2.jpg';
+import './App.css';
 import Login from "./components/login.js"
 import Registration from "./components/Registration.js"
 
