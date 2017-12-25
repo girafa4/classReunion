@@ -5,7 +5,6 @@ class RegPage extends Component {
   render() {
     return (
 
-
      <div>
         <form name = "myform">
         

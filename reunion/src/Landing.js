@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import steer from './styles/Steer2.jpg';
 import './styles/App.css';
-import Login from "./components/login.js"
-import Registration from "./components/Registration.js"
+import Login from "./components/login.js";
+import Registration from "./components/Registration.js";
 
 
 
@@ -24,6 +24,7 @@ class Landing extends Component {
         </div>
         <Registration />
         <Login />
+     
       
         
       </div>
